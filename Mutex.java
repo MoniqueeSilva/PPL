@@ -1,3 +1,5 @@
+// mostrando o uso de mutex para garantir o controle de acesso a um recurso compartilhado entre múltiplas threads.
+
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Mutex {
