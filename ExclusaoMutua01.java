@@ -1,3 +1,5 @@
+// mostrando na prática, que a exclusão mútua funciona e evita erro em programas com várias threads.
+
 import java.util.Random;
 
 public class ExclusaoMutua01 {
