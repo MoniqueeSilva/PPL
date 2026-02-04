@@ -77,3 +77,5 @@ public class ExclusaoMutua01 {
         }
     }
 }
+
+// O programa usa synchronized para garantir que apenas uma thread por vez altere as posições do vetor. Cada par de posições tem seu próprio lock, evitando que duas threads mexam no mesmo lugar ao mesmo tempo. Com isso, não acontece condição de corrida e os valores do vetor ficam corretos mesmo com as threads rodando juntas.
